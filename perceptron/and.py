@@ -56,7 +56,7 @@ for x in range(50):
             
 
         listofresults.append(yresult)
-        if result != y[i]:
+        if yresult != y[i]:
             AcertSet(x1[i],x2[i], yresult,i)
         
         print('Result :' + str(result) + '   Y: '+ str(yresult))
